@@ -2543,6 +2543,86 @@ label {
     padding-right: 0 !important;
 }
 
+.notification-toast {
+    position: fixed;
+    bottom: 80px;
+    left: 20px;
+    right: 10px;
+    background: #fff;
+    max-width: 300px;
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    padding: 15px;
+    border-radius: var(--border-radius-md);
+    box-shadow: 0 5px 20px hsla(0, 0%, 0%, 0.15);
+    transform: translateX(calc(-100% - 40px));
+    transition: 0.5s ease-in-out;
+    z-index: 5;
+    animation: slideInOut 10s ease-in-out infinite;
+  }
+  
+  @keyframes slideInOut {
+  
+    0%,
+    45%,
+    100% {
+      transform: translateX(calc(-100% - 40px));
+      opacity: 0;
+      visibility: hidden;
+    }
+  
+    50%,
+    95% {
+      transform: translateX(0);
+      opacity: 1;
+      visibility: visible;
+    }
+  
+  }
+  
+  .notification-toast.closed { display: none; }
+  
+  .toast-banner {
+    width: 70px;
+    height: 70px;
+    border: 1px solid var(--cultured);
+    border-radius: var(--border-radius-sm);
+  }
+  
+  .toast-banner img {
+    width: 70%;
+    height: 70%;
+    object-fit: contain;
+    object-position: center;
+    padding-right: 5px;
+  }
+  
+  .toast-detail {
+    width: calc(100% - 85px);
+    padding-right: 1px;
+    margin-left: -30px;
+    letter-spacing: -0.5px;
+  }
+  
+  .toast-message {
+    font-size: 14px;
+    color: black;
+    margin-bottom: 6px;
+  }
+  
+  .toast-title {
+    font-size: var(--fs-7);
+    font-weight: var(--weight-500);
+    color: black;
+  }
+  
+  .toast-meta {
+    font-size: var(--fs-10);
+    color: var(--sonic-silver);
+}
+  
+
 
 /* modal css end */
 
@@ -2601,6 +2681,12 @@ label {
         max-height: 55px;
     }
 }
+
+@media (min-width: 1024px) {
+    .notification-toast { 
+        bottom: 30px; 
+    }
+}  
 
 .header .main-menu {
     margin-left: 2.8125rem;
@@ -6121,10 +6207,43 @@ line-height: 30px;
     font-size: 14px;
     letter-spacing: 0px;
 }
-#about {
+#about{
+    padding: 20px 0 80px 0;
+}
+
+.containing{
+    padding: 10px 10%;
+}
+
+.about-row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 40px;
+}
+
+.about-col-1{
+    flex-basis: 35%;
+}
+.about-col-1 img{
     width: 100%;
-    background-color: #fff;
-    min-width: 1170px;
+    border-radius: 15px;
+}
+.about-col-2{
+    flex-basis: 60%;
+    background-image: url(../../../images/about_background.png);
+}
+
+@media only screen and (max-width: 600px){
+    .about-col-1, .about-col-2{
+        flex-basis: 100%;
+    }
+    .about-col-1{
+        margin-bottom: 30px;
+    }
+    .about-col-2{
+        font-size: 14px;
+   }
 }
 
 #sub-about {
@@ -6424,9 +6543,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 
 #choose {
     width: 100%;
-    background-image: url(../images/features.png);
+    height: auto;
     min-width: 1170px;
-    height: 605px;
 }
 
 #sub_choose {
