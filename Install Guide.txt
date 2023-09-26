@@ -1,0 +1,8 @@
+During  installation..
+please dont rename your domain path
+for example.
+
+here is how it should be.
+https://yoursitename.com/public
+
+please leave it that way

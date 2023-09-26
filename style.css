@@ -1,0 +1,3245 @@
+/*----------------- Created by: VisualHyip.com ---------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,600i,700');
+
+ *{
+	margin:0px;
+	padding:0px;
+	}
+
+body{
+	margin:0px;
+	padding:0px;
+    font-family: 'Nunito', sans-serif;
+	}
+
+.clr{
+	clear:both;
+	}
+	
+h1 { font-size: 40px; }
+h2 { font-size: 35px; }
+h3 { font-size: 30px; }
+h4 { font-size: 25px; }
+h5 { font-size: 20px; }
+h6 { font-size:15px; }
+h1, h2, h3, h4, h5, h6 { margin-bottom: 0px; margin-top:0px; }
+		
+::-webkit-input-placeholder {
+		color:    #000;
+	}
+	:-moz-placeholder {
+		color:    #000;
+	}
+	::-moz-placeholder {
+		color:    #000;
+	}
+	:-ms-input-placeholder {
+		color:    #000;
+	}
+	
+
+/*-----placheholder-color-------
+.amounttype input::-webkit-input-placeholder{
+	color:#FFFFFF;
+	}----------*/
+
+a{text-decoration:none;}
+	
+input[type="submit"]{
+	height: auto;
+	cursor:pointer;
+	width: 100%; 
+	color:#FFFFFF;
+	background-color:#05937d;
+    font-weight: 600;
+	font-size:17px;
+	font-family: 'Open Sans', sans-serif;
+	padding: 12px 0px;
+	border:none;
+	outline:none;
+	border-radius: 4px;
+	}
+
+input[type="submit"]:hover {
+	background-color:#006e7d;
+	}
+
+input[type="button"]{
+	height: auto;
+	cursor:pointer;
+	width: 100%; 
+	color:#FFFFFF;
+	background-color:#05937d;
+    font-weight: 600;
+	font-size:17px;
+	font-family: 'Open Sans', sans-serif;
+	padding: 12px 0px;
+	border:none;
+	outline:none;
+	}
+
+input[type="button"]:hover {
+	background-color:#006e7d;
+	}
+	
+	
+input[type='text'], input[type='password'] {
+font-size: 15px;
+    width: 98%;
+    height: 100%;
+    border: none;
+    padding: 12px 6px;
+    background-color: #ffffff;
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    outline: none;
+    border: 1px solid#000;
+    letter-spacing: 0px;
+	}
+	
+textarea{
+	font-size:17px;
+	font-family: 'Open Sans', sans-serif;
+	border:1px solid #009973; 
+	border-radius:5px;
+	outline:none;
+	width:100%;
+	padding:10px;
+	height:100%;
+	}
+
+.text-area textarea{
+	height:85%;
+	width:96.6%;
+    color: #009973;
+    border-radius: 5px;
+	}
+.text-area textarea::-webkit-input-placeholder{
+	color:#009973;
+	}
+	
+.a-link{
+	width:100%;
+	height:auto;
+	padding: 10px 0px;
+	font-size:18px;
+	font-family: 'Open Sans', sans-serif;
+	color:#FFFFFF;
+	display: block;
+	text-align:center;
+	background-color:#05937d;
+    font-weight: 600;
+	}
+	
+.a-link:hover{
+	background-color:#007e7d;
+	}
+
+select{
+    height: auto;
+    width: 26%;
+    border-radius: 5px;
+    border: 1px solid #018E08;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    color: #000;
+    outline: none;
+    padding: 12px;
+    letter-spacing: 0.5px;
+	 }
+
+
+#header{
+    width: 100%;
+    height: 154px;
+    background: url(../images/header.png) transparent no-repeat center top;
+    background-size: cover;
+    min-width: 1170px;
+    }
+
+#sub_header {
+    width: 1140px;
+    margin: 0 auto;
+    }
+
+.logo {
+    width: 340px;
+    float: left;
+    margin-top: 46px;
+}
+
+.header_right {
+    width: 772px;
+    float: right;
+}
+
+.header_rightup {
+    width: 100%;
+    overflow: hidden;
+    margin-top:10px;
+    overflow: hidden;
+}
+
+.time {
+    height: 24px;
+    width: auto;
+    margin-top: 11px;
+    float: left;
+}
+.time p{
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 0px;
+    margin-left: 12px;
+}
+.time p img{
+    margin: 0px 7px -7px 0px;
+    }
+
+.twobtn {
+    width: auto;
+    float: right;
+}
+
+.btn_one {
+    width: auto;
+    float: left;
+    margin-left: 20px;
+}
+.btn_one:hover{
+    opacity: 0.8;
+}
+.btn_one:first-child{
+    margin-left: 0px;
+}
+
+.header_down {
+width: 95%;
+    margin-top: 28px;
+    overflow: hidden;
+    float: right;
+}
+
+.location{
+	height:auto;
+	width:auto;
+	float:left;
+	margin-left:26px;
+	}
+.location_{
+    height: auto;
+    width: auto;
+    float: left;
+	}
+
+.location:first-child{
+	margin-left:10px;
+	}
+	
+.loicon{
+	height:auto;
+	width:auto;
+	float:left;
+	}
+	
+.loc-text_{
+	height:auto;
+	width:118px;
+	float:left;
+	margin-left:10px;
+	margin-top:0px;
+	}
+.loc-text{
+	height:auto;
+	width:auto;
+	float:left;
+	margin-left:10px;
+	margin-top:0px;
+	}
+
+.loc-text p{
+    font-size: 15px;
+    font-weight: 500;
+    color: #009973;
+    letter-spacing: 1px;
+    margin-top: 9px;
+	}
+
+.loc-text p span{
+    text-transform: lowercase;
+    font-size: 15px;
+    font-weight: 500;
+    }
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown select{
+    width: 161%;
+    padding: 11px 5px;
+    background: #0f343a;
+    color: rgba(255, 255, 255, 0.92);
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0px 0px 0px 35px !important;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+}
+
+.dropdown .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    color: #fff;
+    display: none;
+    margin: 0;
+
+    /****************
+     ** NEW STYLES **
+     ****************/
+
+    list-style: none; /** Remove list bullets */
+    width: 100%; /** Set the width to 100% of it's parent */
+    padding: 0;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/** Button Styles **/
+.dropdown button {
+        background-color: transparent;
+    color: #009973;
+    border: none;
+    margin: 0;
+    width: 124px;
+    text-align: left;
+    padding: 0.5em 0em;
+        margin-left: -7px;
+    outline: none;
+    padding-left: 17px;
+    font-size: 1em;
+}
+
+/** List Item Styles **/
+.dropdown a {
+        display: block;
+    padding: 0.4em 0.8em;
+    text-decoration: none;
+     border-bottom: 1px solid#0bbf9a;
+    background: #038d74;
+    color: #fff;
+}
+
+/** List Item Hover Styles **/
+.dropdown a:hover {
+    background: #05937f;
+}
+
+#menu{
+    width: 100%;
+    height: 85px;
+    background: url(../images/menu.png) transparent no-repeat center top;
+    background-size: cover;
+    min-width: 1170px;
+    }
+
+#sub_menu{
+    height: auto;
+    width: 1140px;
+    margin: 0 auto;
+    
+}
+
+.menu{
+	height:auto;
+	width:auto;
+	text-align:center;
+	}
+.menu ul{
+	list-style:none;
+	display:inline-flex;
+	}
+
+.menu ul li{
+	float:left;
+	line-height: 84px;
+	}
+
+.menu ul li:first-child{
+	margin-right:1px;}
+
+.menu ul li:last-child{
+	border-right:none;
+	}
+	
+.menu ul li a{
+font-size: 16px;
+    color: #FFFFFF;
+    display: block;
+    text-align: center;
+    padding: 0px 30px;
+    text-transform: capitalize;
+    letter-spacing: 0px;
+	}
+
+.menu ul li a:hover{
+    color: #0f383d;
+	}
+
+.slider_left{
+    height: auto;
+    width: 700px;
+    float: left;
+    overflow: hidden;
+    margin-top:25px;
+    }
+
+#slider {
+    width: 100%;
+    height: auto;
+    background: url(../images/slider.png) transparent no-repeat center top;
+    background-size: cover;
+    min-width: 1170px;
+}
+
+
+#sub_slider {
+    width: 1140px;
+    margin: 0 auto;
+    padding: 55px 0px;
+    overflow: hidden;
+    
+}
+
+.slid_text {
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+}
+.slid_text h1{
+    font-size:29px;
+    text-shadow: 2px 2px 2px#000;
+    font-weight: 600;
+}
+
+.slid_texter{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 22px;
+}
+.slid_texter p{
+line-height: 30px;
+    color: #fff;
+    text-align: justify;
+    font-size: 15px;
+    text-shadow: 0.5px 0.5px 0.5px#000;
+    font-weight: 600;
+    letter-spacing: 0px;
+}
+
+.register_details {
+    width: 100%;
+    margin-top: 30px;
+    overflow: hidden;
+}
+
+.register {
+    height: 55px;
+    width: 483px;
+    float: left;
+    background-color: #0f343a;
+    border: 1px solid#82b5b9;
+    border-radius: 5px;
+    }
+.register p{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 4px;
+    margin-top: -3px;
+    }
+.register p img{
+    margin: 13px 4px -8px 0px;
+    }
+
+.view {
+    width: 192px;
+    float: right;
+    margin-right: 2px;
+    }
+.view a{
+    border: 1px solid#071f23;
+    padding: 15px 0px;
+    border-radius: 4px;
+    }
+
+
+
+.login_box {
+    width: 340px;
+    background-color: #0f343a;
+    overflow: hidden;
+    float: right;
+}
+
+.login_uper {
+    width: 100%;
+    overflow: hidden;
+}
+
+.signin {
+    width: 170px;
+    float: left;
+    height: 60px;
+    overflow: hidden;
+    }
+.signin p{
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+}
+.signin p img{
+       margin: 15px 2px -4px 0px;
+}
+.memberhh{
+	height:50px;
+	width:166px;
+	float:right;
+	background: #022564;
+}
+
+.memberhh a{
+    color: #FFFFFF;
+    height: 58px;
+    padding: 5px 0px;
+    display: block;
+    text-align: center;
+    background-color: #003380;
+    text-align: center;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    font-size: 15px;
+	}
+
+.memberhh a img{
+    margin: 15px 3px -3px -1px;
+	   }
+
+.memberhh a:hover{
+	background-color:#008d7d;
+	transition:all 0.5s ease-in-out;}
+
+.login-all{
+	height:auto;
+	width:278px;
+	    padding-top: 30px;
+	margin:0 auto;
+    padding-bottom: 25px;
+    overflow: hidden;
+	}
+
+.login-one{
+	height:auto;
+	width:276px;
+	float:left;
+    padding: 5px 0px;
+	background-color:#FFFFFF;
+	margin-top:20px;
+	    border-radius: 4px;
+	}
+	
+.login-one:first-child{
+	margin-top:0px;
+	}
+	
+.login-user{
+	height: auto;
+    width: 39px;
+    float: left;
+    text-align: center;
+    padding: 10px 0px;
+ border-right: 1px solid#05937d;
+	}
+	
+.login-user i{
+	color:#05937d;
+	text-align:center;
+	}
+.login-text{
+	height:auto;
+	width:220px;
+	float:left;
+	}
+	
+.login-text input{
+	background-color:transparent;
+	color:#05937d;
+    border: none;
+    border-radius: 0px;
+	padding:10px 10px;
+	}
+.login-text input::-webkit-input-placeholder{
+	color:#05937d;
+	}
+	
+.remember_login {
+    width: 100%;
+    margin-top:27px;
+    overflow: hidden;
+}
+
+.remember {
+    width: auto;
+    float: left;
+        margin-top: 11px;
+}
+
+.recheck {
+    width: auto;
+    float: left;
+}
+.recheck input{
+    height: 20px;
+    width: 20px;
+    }
+
+.remember_me {
+    height: auto;
+    width: auto;
+    float: left;
+    margin-left: 10px;
+}
+.remember_me p{
+    color: #fff;
+    font-size: 16px;
+}
+
+.login {
+    height: auto;
+    width: 116px;
+    float: right;
+}
+
+.forgot_pass {
+    width: 100%;
+    overflow: hidden;
+    background-color: #071f23;
+    padding: 10px 0px;
+    margin-top: 18px;
+    text-align: center;
+    border-radius: 4px;
+}
+.forgot_pass a{
+    text-align: center;
+    color: #05937d;
+    font-size: 14px;
+    letter-spacing: 0px;
+}
+#about {
+    width: 100%;
+    background-color: #fff;
+    min-width: 1170px;
+}
+
+#sub-about {
+    width: 1140px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-bottom: 20px;
+    padding-top: 50px;
+    }
+
+.about_border {
+    width: 100%;
+    overflow: hidden;
+    height: 1px;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+1,059d78+12,059d78+14,059d78+20,ffffff+41,ffffff+54,ffffff+60,059d78+80,ffffff+100 */
+background: #ffffff; /* Old browsers */
+background: -moz-linear-gradient(left, #ffffff 1%, #059d78 12%, #059d78 14%, #059d78 20%, #ffffff 41%, #ffffff 54%, #ffffff 60%, #059d78 80%, #ffffff 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #ffffff 1%,#059d78 12%,#059d78 14%,#059d78 20%,#ffffff 41%,#ffffff 54%,#ffffff 60%,#059d78 80%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #ffffff 1%,#059d78 12%,#059d78 14%,#059d78 20%,#ffffff 41%,#ffffff 54%,#ffffff 60%,#059d78 80%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 */
+
+    }
+
+.about_border_ {
+    width: 100%;
+    overflow: hidden;
+        margin-top: 8px;
+    height: 1px;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+1,059d78+12,059d78+14,059d78+20,ffffff+36,ffffff+54,ffffff+64,059d78+80,ffffff+100 */
+background: #ffffff; /* Old browsers */
+background: -moz-linear-gradient(left, #ffffff 1%, #059d78 12%, #059d78 14%, #059d78 20%, #ffffff 36%, #ffffff 54%, #ffffff 64%, #059d78 80%, #ffffff 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #ffffff 1%,#059d78 12%,#059d78 14%,#059d78 20%,#ffffff 36%,#ffffff 54%,#ffffff 64%,#059d78 80%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #ffffff 1%,#059d78 12%,#059d78 14%,#059d78 20%,#ffffff 36%,#ffffff 54%,#ffffff 64%,#059d78 80%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 */
+    }
+.about_border_w {
+    width: 100%;
+    overflow: hidden;
+        margin-top: 13px;
+    height: 1px;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+1,059d78+12,059d78+14,059d78+20,e6f6ff+36,ffffff+54,ffffff+64,059d78+80,ffffff+100 */
+background: #ffffff; /* Old browsers */
+background: -moz-linear-gradient(left, #ffffff 1%, #059d78 12%, #059d78 14%, #059d78 20%, #e6f6ff 36%, #ffffff 54%, #ffffff 64%, #059d78 80%, #ffffff 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #ffffff 1%,#059d78 12%,#059d78 14%,#059d78 20%,#e6f6ff 36%,#ffffff 54%,#ffffff 64%,#059d78 80%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #ffffff 1%,#059d78 12%,#059d78 14%,#059d78 20%,#e6f6ff 36%,#ffffff 54%,#ffffff 64%,#059d78 80%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 */
+    }
+
+
+.about_head {
+   width: 100%;
+    position: relative;
+    text-align: center;
+    margin-top: -24px;
+}
+.about_head p{
+    color: #059d78;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.about_down {
+    width: 100%;
+    margin-top: 15px;
+    overflow: hidden;
+}
+
+.about_left {
+    height: auto;
+    width: auto;
+    float: left;
+     margin-top: 17px;
+}
+
+.about_right {
+    width: 675px;
+    height: 414px;
+    background-image: url(../images/aboutusbg.png);
+    background-repeat: no-repeat;
+    float: right;
+}
+.about_right p{
+    padding: 10px;
+    text-align: justify;
+    line-height: 27px;
+    color: #3b3c3c;
+    font-size: 15px;
+    letter-spacing: 0px;
+    }
+.about_right p span a{
+    color: #059d78;
+    font-size: 18px;
+    float: right;
+    font-weight: 600;
+    font-style: italic;
+    margin-top: 30px;
+    }
+
+
+#plan{
+    width: 100%;
+    height: auto;
+    background: url(../images/plan.png) transparent no-repeat center top;
+    background-size: cover;
+    min-width: 1170px;
+    border-top: 1px solid #007f5f;
+    border-bottom: 1px solid #007f5f;
+    background-attachment: fixed;
+}
+
+#sub_plan {
+    width: 1140px;margin: 0 auto;
+    padding: 50px 0px;
+    
+    }
+
+
+.all_plan {
+    width:100%;
+    margin: 0 auto;
+    margin-top: 40px;
+    overflow: hidden;
+}
+
+.plan_one {
+    background-image: url(../images/planbox.png);
+    background-size: 100% 393px;
+    background-repeat: no-repeat;
+    width: 222px;
+    height: 395px;
+    float: left;
+    overflow: hidden;
+    margin-left: 7px;
+}
+.plan_oned {
+    background-image: url(../images/dplan.png);
+    width: 159px;
+    height: 441px;
+    float: left;
+    overflow: hidden;
+    margin-left: 3px;
+}
+.plan_oned:first-child{
+    margin-left:0px;
+}
+.plan_one:first-child{
+    margin-left: 0px;
+}
+
+.plan_tittle {
+    width: auto;
+    text-align: center;
+}
+.plan_tittle p{
+    color: #009973;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: -7px;
+    line-height: 60px;
+}
+
+.percent {
+    width: 100%;
+    text-align: center;
+    padding-top: 44px;
+}
+
+.percent h1{
+    padding-top: 6px;
+    font-size: 25px;
+}
+
+
+.percentd {
+    width: 100%;
+    text-align: center;
+    padding-top:55px;
+}
+.percentd h1{
+    font-size: 26px;
+    margin-top: 10px;
+}
+
+.daily {
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    margin-top: 3px;
+}
+
+.dailyd {
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    color: #fff;
+    font-size:15px;
+    font-weight: 600;
+    margin-top: 4px;
+}
+
+
+.min_box {
+    height: auto;
+    width: 100%;
+    text-align: center;
+    margin-top:8px;
+    border-top: 1px solid#005741;
+    overflow: hidden;
+     border-bottom: 1px solid#005741;
+}
+
+.min_boxd{
+     height: auto;
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid#005741;
+    overflow: hidden;
+    margin-top: 16px;
+    border-bottom: 1px solid#005741;
+    }
+
+.min_box_left {
+    width: 110px;
+    float: left;
+    color: #fff;
+    border-right: 1px solid#005741;
+    overflow: hidden;
+    padding: 9px 0px;
+}
+.min_box_left:last-child{
+    border-right: none;
+}
+.min_box_left p{
+    font-size: 14px;
+    letter-spacing: 0px;
+}
+.min_box_left p span{
+    font-size: 16px;
+     font-weight: 600;
+}
+
+.min_box_leftd {
+    width: 79px;
+    float: left;
+    color: #fff;
+    border-right: 1px solid#005741;
+    overflow: hidden;
+    padding: 6px 0px;
+    }
+
+.min_box_leftd:last-child{
+    border-right: none;
+}
+.min_box_leftd p{
+    font-size: 14px;
+    line-height: 20px;
+}
+.min_box_leftd p span{
+    font-size:15px;
+     font-weight: 600;
+}
+.princ {
+       width: 100%;
+    padding: 8px 0px;
+    text-align: center;
+    overflow: hidden;
+    border-bottom: 1px solid#005741;
+}
+.princ p{
+    font-size: 14px;
+    color: #fff;
+    letter-spacing: 0px;
+}
+
+.deposit_now {
+    width: 126px;
+    margin: 0 auto;
+  padding-top: 40px;
+}
+.deposit_now a{
+    background-color: transparent;
+    border: 1px solid#e3e3e3;
+    color: #006d51;
+    border-radius: 6px;
+    font-size: 14px;
+    letter-spacing: 0px;
+    padding: 9px 0px;
+}
+.deposit_now a:hover{
+    color: #fff;
+}
+
+#choose {
+    width: 100%;
+    background-image: url(../images/features.png);
+    min-width: 1170px;
+    height: 605px;
+}
+
+#sub_choose {
+    width: 1140px;
+    margin: 0 auto;
+    padding:40px 0px;
+    overflow: hidden;
+}
+#sub-features{
+	height:auto;
+	width:1140px;
+	margin:0 auto;
+	overflow:hidden;
+    padding-top: 35px;
+	}
+
+.features-left{
+	height:auto;
+	width:555px;
+	float:left;
+	overflow:hidden;
+	}
+
+.features-right{
+	height:auto;
+	width:555px;
+	float:right;
+	overflow:hidden;
+	}
+
+.features-one{
+    height: auto;
+    width: 551px;
+    float: left;
+    border: 1px solid#01a96a;
+    margin-top: 20px;
+    border-radius: 5px;
+	}
+
+.features-one:first-child{
+	margin-top:0px;
+	}
+
+
+
+.fetures-image{
+	height:auto;
+	float:left;
+	overflow:hidden;
+	width:auto;
+    padding: 16px 16px;
+	}
+
+.fetaures-text{
+	height:auto;
+	width:385px;
+    margin: 15px 0px 15px 0px;
+	float:left;
+	}
+	
+.text-head{
+	height:auto;
+	width:100%;
+	float:left;
+	}
+.text-head h5{
+    color: #059d78;
+    letter-spacing: 0px;
+    font-weight: 600;
+}
+
+.text-feture{
+    height: auto;
+    width: 100%;
+    float: left;
+    line-height: 26px;
+    margin-top: 3px;
+    text-align: justify;
+    font-size: 15px;
+    letter-spacing: 0px;
+	}
+
+#calculator {
+    width: 100%;
+    height: auto;
+    background: url(../images/calculator.png) transparent no-repeat center top;
+    background-size: cover;
+    min-width: 1170px;
+    background-attachment: fixed;
+}
+
+#sub_calculator{
+    width: 1140px;
+    margin: 0 auto;
+    padding:35px 0px;
+    overflow: hidden;
+    }
+
+
+.cal_left{
+    width: 445px;
+    float: left;
+    border: 1px solid#5e9f93;
+    overflow: hidden;
+    background-color: rgba(0, 153, 115, 0.61);
+    padding: 40px 0px;
+    border-radius: 4px;
+    }
+
+.cal_head {
+height: 52px;
+    width: 100%;
+    background-color: #219c88;
+    overflow: hidden;
+}
+
+.cal_head p{
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0px;
+}
+.cal_head p img{
+     margin: 8px 2px -7px 0px;
+}
+.cal_all {
+      width: 386px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-top:11px;
+}
+
+.cal-one{
+	height:auto;
+	width:100%;
+	float:left;
+	overflow:hidden;
+	margin-top:18px;
+	}
+
+.cal-one:first-child{
+	margin-top:0px;
+	}
+
+.tittle-head{
+	height:auto;
+	width:auto;
+	float:left;
+	}
+
+.tittle-head p{
+	color:#FFFFFF;
+	text-transform:capitalize;
+	}
+
+.calselect{
+	height:auto;
+	width:100%;
+	float:left;
+	overflow:hidden;
+	    margin-top: 8px;
+	}
+
+.calselect select{
+    padding: 13px 6px;
+    border: none;
+    color: #009973;
+    border-radius: 4px;
+    width: 100%;
+	}
+.textnum{
+	height:auto;
+	width:96.5%;
+	float:left;
+	margin-top: 8px;
+
+	}
+
+.textnum input{
+    padding: 13px 10px;
+    border: none;
+    color: #009973;
+    text-align: center;
+    border-radius: 4px;
+	}
+
+.cal-left {
+    height: auto;
+    width: 185px;
+    float: left;
+    overflow: hidden;
+    padding-bottom: 3px;
+}
+
+.calearn {
+     height: auto;
+    width: 100%;
+    background-color: #fff;
+    padding: 14px 0px;
+    overflow: hidden;
+    text-align: center;
+    /* margin-top: 10px; */
+    float: left;
+    margin-top: 8px;
+    border-radius: 4px;
+}
+
+
+.calearn p {
+    color: #036b59;
+}
+
+.cal-right {
+    height: auto;
+    width: 185px;
+    float: right;
+    overflow: hidden;
+}
+
+.cal-tittle {
+    height: auto;
+    width: 100%;
+    float: left;
+    overflow: hidden;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.cal-tittle p{
+    text-align: ;left;
+    color: #fff;
+}
+
+.live_state {
+    width: 655px;
+    float: right;
+    overflow: hidden;
+}
+
+.live_head {
+    width: auto;
+    text-align: center;
+}
+.live_head p{
+    color: #fff;
+    font-size: 26px;
+    font-weight: 600;
+    margin-top: -8px;}
+
+.all_live {
+    width: 100%;
+    overflow: hidden;
+      margin-top: 25px;
+}
+
+.live_uper {
+    width: 100%;
+    overflow: hidden;
+    margin-top: 5px;
+}
+.live_uper:first-child{
+    margin-top: 0px;
+}
+.state-one{
+	height:auto;
+	width:212px;
+	float:left;
+	background-color: rgba(0, 0, 0, 0.36);
+	margin-left:5px;
+	padding:18px 0px;
+	overflow:hidden;
+	    border-radius: 4px;
+	}
+
+
+.state-one:first-child{
+	margin-left:0px;
+	}
+
+.state-icon{
+	height:auto;
+	width:auto;
+	text-align:center;
+	}
+
+.state-work{
+	height:auto;
+	width:auto;
+	text-align:center;
+	margin-top:14px;
+	}
+
+.state-work p{
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0px;
+	}
+
+.state-tittle{
+	height:auto;
+	width:auto;
+	text-align:center;
+	margin-top:15px;
+	}
+
+.state-tittle p{
+    font-size: 15px;
+    color: #FFFFFF;
+    letter-spacing: 0px;
+	}
+
+
+#works {
+    width: 100%;
+    height: auto;
+    background: url(../images/step.png) transparent no-repeat center top;
+    background-size: cover;
+    min-width: 1170px;
+    background-attachment: fixed;
+}
+
+#sub_works {
+    width: 1140px;
+    margin: 0 auto;
+    padding: 45px 0px;
+}
+
+.all_work{
+    width: 100%;
+    margin-top: 30px;
+    overflow: hidden;
+    }
+
+.work_one {
+    width: 238px;
+    float: left;
+    overflow: hidden;
+}
+
+.work_icon{
+    width: auto;
+    text-align: center;
+    overflow: hidden;
+}
+
+.work_tittle {
+    width: 99.2%;
+    border: 1px solid#059d78;
+    border-radius: 6px;
+    padding: 12px 0px;
+    margin-top: 33px;
+}
+.work_tittle p{
+    font-size: 16px;
+    color: #059d78;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 0px;
+}
+
+.arrow {
+    width: auto;
+    float: left;
+    overflow: hidden;
+    margin: 65px 0px;
+}
+
+#main-payment{
+	height:auto;
+	width:100%;
+	background-color:#ffffff;
+	min-width:1170px;
+	}
+	
+#sub-payment{
+	height:auto;
+	width:1140px;
+	margin:0 auto;
+	overflow:hidden;
+	padding:30px 0px;
+	}
+
+.payment{
+	height:auto;
+	width:auto;
+	text-align:center;
+	}
+	
+.payment ul{
+	list-style:none;
+	display:inline-flex;
+	}
+	
+.payment ul li{
+	float:left;
+	margin-left:14px;
+	cursor:pointer;
+    margin-top: 7px;
+	}
+	
+.payment ul li:hover{
+	opacity:0.8;
+	}
+	
+.payment ul li:first-child{
+	margin-left:0px;
+	}
+#main_footer {
+    width: 100%;
+    height: 269px;
+    background: url(../images/footera.png) transparent no-repeat center top;
+    background-size: cover;
+    min-width: 1170px;
+}
+
+
+#sub_footer {
+    width:1140px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 29px 0px;
+}
+
+.site-link{
+	height:auto;
+	    width: 407px;
+	float:left;
+	margin-left:118px;
+	overflow:hidden;
+	}
+
+.site-link:first-child{
+	margin-left:0px;
+	}
+
+
+
+.link-head{
+	height:auto;
+	width:100%;
+	float:left;
+	overflow:hidden;
+	}
+
+.link-head h5{
+	}
+
+.menu-down{
+	height:auto;
+	width:100%;
+	float:left;
+	overflow:hidden;
+	}
+
+.link-one{
+	height:auto;
+	    width: 202px;
+	float:left;
+	overflow:hidden;
+	}
+
+.link-one ul{
+	list-style:none;
+	}
+
+.link-one ul li{
+    float: left;
+    margin-top: 20px;
+    width: 100%;
+	}
+
+.link-one ul li a{
+    text-transform: capitalize;
+    color: #FFFFFF;
+    font-size: 14px;
+    display: block;
+    letter-spacing: 0.5px;
+	}
+
+.link-one ul li a:hover{
+	color:#000;
+	}
+.site_two {
+    width: 365px;
+    float: left;
+    overflow:hidden;
+margin-left: 37px;}
+
+.fo_down {
+    width: 100%;
+    overflow: hidden;
+    margin-top: 15px;
+}
+
+.locationf {
+    width: 100%;
+    overflow: hidden;
+    height: auto;
+    margin-top: 15px;
+}
+.locationf:first-child{
+    margin-top: 0px;
+}
+
+.locicon {
+    width: auto;
+    float: left;
+}
+
+.loc_text {
+    width: auto;
+    float: left;
+    margin-left: 15px;
+}
+.loc_text p{
+    color: #fff;
+    line-height: 27px;
+    font-size: 14px;
+    letter-spacing: 0px;
+}
+
+.site_three {
+    width: 300px;
+    float: right;
+    overflow: hidden;
+}
+
+.latest {
+    width: 99%;
+    margin-top: 25px;
+    }
+.latest:first-child{
+    margin-top: 0px;
+}
+.latest a{
+    border: 1px solid#82b3ad;
+    padding: 13px 0px;
+    font-size: 15px;
+    letter-spacing: 0px;
+    border-radius: 5px;
+}
+
+
+#footerr {
+    width: 100%;
+    height: 85px;
+    background: url(../images/footer.png) transparent no-repeat center top;
+    background-size: cover;
+    min-width: 1170px;
+    border-top: 1px solid#4bad9b;
+}
+
+#sub_footerr {
+    width: 1140px;
+    height: auto;
+    margin: 0 auto;
+    padding: 25px 0px;
+    }
+
+.reserved {
+    height: auto;
+    width: auto;
+    float: left;
+    color: #fff;
+    line-height: 36px;
+    letter-spacing: 0px;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+
+.media_right {
+    width: auto;
+    float: right;
+    overflow: hidden;
+}
+
+.media_one {
+    width: auto;
+    float: left;
+    margin-left: 10px;
+}
+
+#refer {
+    width: 100%;
+    height: auto;
+    background: url(https://elitecryptoservices.com/images/refer.png) transparent no-repeat center top;
+    background-size: cover;
+    min-width: 1170px;
+    border-top: 1px solid #0d6154;
+    }
+
+#sub_refer {
+    height: auto;
+    width: 1140px;
+    padding: 45px 0px;
+    margin: 0 auto;
+    overflow: hidden;
+    }
+
+
+
+.refer_left {
+    width:550px;
+    float: left;
+    overflow: hidden;
+}
+.refer_right {
+    width: 550px;
+    float: right;
+    overflow: hidden;
+}
+
+.refer_head {
+    width: 100%;
+    background-color: #000;
+    padding: 10px 0px;
+        background-color: rgba(0, 0, 0, 0.53);
+}
+.refer_head p{
+    color: #fff;
+    font-size: 20px;
+    padding-left: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+}
+
+.refer_down {
+    height: auto;
+    width: 100%;
+    margin-top: 30px;
+    overflow: hidden;
+}
+
+.refer_icon {
+    width: auto;
+    float: left;
+}
+
+.refer_text {
+    width: 226px;
+    float: right;
+    overflow: hidden;
+}
+
+.refer_one {
+    height: 40px;
+    width: 100%;
+    overflow: hidden;
+    background-color: rgba(10, 69, 61, 0.68);
+}
+.refer_one p{
+    font-size: 17px;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 0px;
+}
+.refer_one p img{
+      margin: 9px 20px -3px 16px;
+
+}
+.refer_one_ {
+        height: 40px;
+    width: 100%;
+    overflow: hidden;
+    background-color: rgba(94, 216, 79, 0.37);
+}
+.refer_one_ p{
+    font-size: 17px;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 0px;
+}
+.refer_one_ p img{
+      margin: 9px 12px -3px 16px;
+    }
+
+.refer_one_t {
+        height: 40px;
+    width: 100%;
+    overflow: hidden;
+    background-color: rgba(10, 69, 61, 0.68);
+}
+.refer_one_t p{
+    font-size: 17px;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 0px;
+}
+.refer_one_t p img{
+         margin: 9px 12px -3px 10px;
+    }
+
+
+.refer_all {
+    width: auto;
+    float: right;
+    overflow: hidden;
+}
+
+.level_one {
+    width: 121px;
+    height: 121px;
+    float: left;
+    background-image: url(https://elitecryptoservices.com/images/level.png);
+    background-repeat: no-repeat;
+}
+.level_one p span{
+    color: #009973;
+    font-size: 25px;
+}
+.level_one p{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #000;
+    padding-top: 26px;
+    margin-left: 5px;
+    }
+.level_two {
+    width: 101px;
+    height: 101px;
+    float: left;
+    margin-left: 10px;
+    background-image: url(https://elitecryptoservices.com/images/levelb.png);
+    background-repeat: no-repeat;
+    margin-top: 10px;
+}
+.level_two p span{
+    color: #009973;
+    font-size: 25px;
+}
+.level_two p{
+        text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #000;
+    padding-top: 24px;
+    line-height: 22px;
+    margin-left: 5px;
+    }
+
+.level_three {
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin-left: 10px;
+    background-image: url(https://elitecryptoservices.com/images/levelc.png);
+    background-repeat: no-repeat;
+    margin-top: 20px;
+}
+.level_three p span{
+    color: #009973;
+    font-size: 25px;
+}
+.level_three p{
+          text-align: center;
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #000;
+    padding-top: 13px;
+    line-height: 22px;
+    margin-left: 5px;
+    }
+
+
+#main_other {
+    width: 100%;
+    background-image: url(https://elitecryptoservices.com/images/other.png);
+    min-width: 1170px;
+    height: auto;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    }
+
+
+
+#sub_other {
+    width: 1140px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 40px 0px 40px;
+    }
+
+.all-information{
+	height:auto;
+	width:100%;
+     margin-top: 30px;
+	overflow:hidden;
+	}
+
+.information-one{
+	height:auto;
+	width:100%;
+	overflow:hidden;
+    margin-top: 30px;
+	}
+.information-one:first-child{
+    margin-top: 0px;
+}
+
+.information-head{
+	height:55px;
+	width:100%;
+    background-image: url(https://elitecryptoservices.com/images/headr.png);
+	overflow:hidden;
+	}
+
+.information-head p{
+color: #FFFFFF;
+    font-size: 21px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-left: 35px;
+    letter-spacing: 0px;
+	}
+
+.information-head p img{
+    margin: 4px 4px -15px 0px;
+    }
+
+.all-info{
+	height:auto;
+	width:100%;
+	margin:0 auto;
+    padding-top: 30px;
+    overflow:hidden;
+	}
+
+.info-one{
+	height:auto;
+	width:100%;
+	overflow:hidden;
+        margin-top: 16px;	
+}
+
+.info-one:first-child{
+	margin-top:0px;
+	}
+.info-left{
+	    height: auto;
+    width: 195px;
+    color: #009973;
+    float: left;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-align: right;
+    margin-top: 13px;
+	}
+
+.info-right{
+	height:auto;
+	width:440px;
+	float:right;
+	margin-right:10px;
+    background-color: #ffffff;
+ 
+	}
+
+.info-right input{
+	border-radius:5px;
+       border: 1px solid#009973;
+	}
+.about_border_r {
+    width: 100%;
+    overflow: hidden;
+        margin-top: 8px;
+    height: 1px;
+    background: linear-gradient(to right, #ffffff 1%,#fafafc -3%,#059d78 15%,#328e78 -18%,#fcfbfc 33%,#fbfbfb 60%,#fcfcfc 66%,#059d78 ,#ffffff 100%);
+    }
+
+
+.complete {
+    height: auto;
+    width: auto;
+    margin: 0 auto;
+    display: table;
+    overflow: hidden;
+    padding-top: 20px;
+}
+
+.check-text{
+	height:auto;
+	width:auto;
+	float:left;
+    margin-top: 15px;
+    }
+	
+.check-box{
+	height:auto;
+	width:30px;
+	float:left;
+	}
+	
+.check-box input{
+	height:20px;
+	width:20px;
+	}
+	
+.agree{
+	height:auto;
+	width:auto;
+	float:left;
+	margin-top:-1px;
+	}
+	
+.agree p{
+color: #000000;
+    text-transform: capitalize;
+    letter-spacing: 0px;
+	}
+	
+.agree p span a{
+	color:#009973;
+	font-weight:600;
+	text-transform:capitalize;
+	}
+
+.registration {
+    width: 226px;
+    height: auto;
+    float: left;
+    margin-left: 44px;
+}
+.registration input{
+    background-color: #0f3a3f;
+    padding: 15px 0px;
+    letter-spacing: 0.5px;
+    -moz-box-shadow:inset 0px -2px 38px #0b292d;
+-webkit-box-shadow:inset 0px -2px 38px #0b292d;
+box-shadow:inset 0px -2px 38px #0b292d;
+    }
+
+.contact_left {
+    width: 668px;
+    float: left;
+    overflow: hidden;
+}
+
+.contact_right {
+    height: auto;
+    width: 430px;
+    float: right;
+    overflow: hidden;
+}
+
+.information-headc{
+	height:55px;
+	width:100%;
+    background-image: url(https://elitecryptoservices.com/images/headr.png);
+	overflow:hidden;
+	}
+
+.information-headc p{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-left: 35px;
+    letter-spacing: 0px;
+	}
+
+.information-headc p img{
+            margin: 10px 4px -13px 0px;
+
+    }
+    
+    .all-boxex{
+	height:auto;
+	width:100%;
+	float:left;
+	overflow:hidden;
+	margin-top:0px;
+	}
+
+.information-headr{
+	height:55px;
+	width:100%;
+    background-image: url(https://elitecryptoservices.com/images/headr.png);
+	overflow:hidden;
+	}
+
+.information-headr p{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-left: 35px;
+    letter-spacing: 0px;
+	}
+
+.information-headr p img{
+           margin: 10px 4px -13px 0px;
+        }
+.information_all {
+    width: 100%;
+    margin-top: 30px;
+    overflow: hidden;
+}
+
+.info_one {
+    width: 100%;
+       width: 97.2%;
+    margin-top: 18px;
+}
+.info_one input{
+    padding: 15px 15px;
+    border-radius: 5px;
+    border: 1px solid#009973;
+    color: #009973;
+}
+.info_one:first-child{
+    margin-top: 0px;
+}
+.info_one input::-webkit-input-placeholder{
+	color:#009973;
+	}
+
+.text-area {
+    height: 167px;    width: 100%;
+    margin-top: 23px;
+}
+
+.send {
+    width: 226px;
+    height: auto;
+    margin-top: 22px;
+    float: right;
+}
+.send input{
+    background-color: #0f3a3f;
+    padding: 15px 0px;
+    letter-spacing: 0.5px;
+    -moz-box-shadow:inset 0px -2px 38px #0b292d;
+-webkit-box-shadow:inset 0px -2px 38px #0b292d;
+box-shadow:inset 0px -2px 38px #0b292d;
+    }
+.add_box {
+    width: 99.6%;
+    margin-top: 30px;
+    overflow: hidden;
+    background-color: #fff;
+    padding-top: 30px;
+    border: 1px solid#009973;
+    border-radius: 5px;
+    }
+
+.con_one {
+    width: 340px;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: 14px;
+}
+.con_one:first-child{
+    margin-top: 0px;
+}
+
+.con_icon {
+    width: auto;
+    float: left;
+    }
+.con_text {
+    width: 275px;
+    float: right;
+    overflow: hidden;
+    }
+.con_text p{
+    color: #009973;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+}
+
+
+.con_down {
+    width: 100%;
+    margin-top: 25px;
+    overflow: hidden;
+}
+
+.contact_man {
+    height: 104px;
+    float: left;
+}
+
+.rightdow {
+    width: auto;
+    float: right;
+    overflow: hidden;
+    margin-top: -171px;
+    width: 324px;
+}
+
+.tws {
+    width:auto;
+    overflow: hidden;
+}
+.tws p{
+    color: #059d77;
+    font-size: 20px;
+}
+
+.support {
+    width: 173px;
+    float: right;
+    overflow: hidden;
+    margin-top: 20px;
+}
+.support input{
+    background-color: #103b40;
+}
+
+
+.forgotl {
+    width: 39%;
+    overflow: hidden;
+    margin-top: 26px;
+    margin-left: 30.5%;
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+.forgotl a{
+    color: #02896d;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+}
+.forgotl a:hober{
+    color: #0e363a;
+}
+
+
+.nowlog {
+    width: 220px;
+    margin-top: 24px;
+    overflow: hidden;
+    margin-left: 463px;
+}
+.nowlog input {
+    background-color: #0f3a3f;
+    padding: 15px 0px;
+    letter-spacing: 0.5px;
+    -moz-box-shadow: inset 0px -2px 38px #0b292d;
+    -webkit-box-shadow: inset 0px -2px 38px #0b292d;
+    box-shadow: inset 0px -2px 38px #0b292d;
+}
+
+.account_down {
+    height: auto;
+    width: 100%;
+    margin-top: 30px;
+    overflow: hidden;
+}
+
+.desh-left{
+	height:auto;
+	width:280px;
+	float:left;
+	}
+
+.desh-menu{
+	height:auto;
+	width:100%;
+	overflow:hidden;
+	}
+
+.desh-menu ul{
+	list-style:none;
+	}
+
+.desh-menu ul li{
+	float: left;
+    height: 50px;
+    background:#059480;
+    margin-top: 5px;
+    width: 100%;
+	}
+
+.desh-menu ul li:last-child{
+	border-bottom:none;
+	}
+	
+.desh-menu ul li:first-child{
+	margin-top:0px;}
+
+.desh-menu ul li a{
+font-size: 15px;
+    color: #fff;
+    padding: 14.5px;
+    float: left;
+    width: 90%;
+    display: block;
+    letter-spacing: 0px;
+    text-transform: capitalize;
+	}
+
+.desh-menu ul li:hover{
+	background-color:#0f3a3f;	
+	}
+
+.desh{
+	background-image:url(https://elitecryptoservices.com/images/da.png);
+	width:27px;
+	height:22px;
+	background-repeat:no-repeat;
+	}
+
+.dicon{
+    background-position: right;
+    float: left;
+    margin-left: 10px;
+    margin-right: 25px;
+	}
+.desh-menu ul li a:hover{
+	color:#FFFFFF;
+	}
+
+.desh-menu ul li a:hover .desh{
+	background:url(https://elitecryptoservices.com/images/dah.png);
+	background-repeat:no-repeat;
+    	width:27px;
+	height:22px;
+	color:#FFFFFF;
+    margin-left: 10px;
+	}
+.desh_right{
+    height: auto;
+    width: 810px;
+    float: right;
+    overflow: hidden;
+}
+.desh_refer {
+    height: 64px;
+    width: 100%;
+    background-image: url(https://elitecryptoservices.com/images/headr.png);
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.desh_refer p{
+    font-size: 15px;
+    color: #fff;
+    font-weight: 600;
+    margin-left: 25px;
+    letter-spacing: 0px;
+}
+.desh_refer p img{
+margin: 20px 7px -12px 0px;
+    }
+.desh_refer p span{
+    float: right;
+}
+
+.user {
+    width: 100%;
+    margin-top: 20px;
+    color: #059480;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+}
+
+.user p span{
+    float: right;
+}
+.desh-balance{
+	height:auto;
+	width:100%;
+	overflow:hidden;
+	    margin-top: 30px;
+	}
+
+.balance-one{
+	height:auto;
+	 width: 254px;
+	float:left;
+	background-color: #fff;
+	padding:15px 0px;
+	overflow:hidden;
+    margin-left: 18px;
+	border: 1px solid#059480;
+	}
+
+.balance-one:first-child{
+	margin-left:0px;
+	}
+
+.balance-amount{
+	height:auto;
+	width:auto;
+	text-align:center;
+	margin-top:5px;
+	font-size:30px;
+	}
+
+
+.balance-amount p{
+    color: #009973;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+	}
+	
+.balance-icon{
+	height:auto;
+	width:auto;
+	text-align:center;
+	}
+	
+.amount{
+	height:auto;
+	width:auto;
+	text-align:center;
+	margin-top:5px;
+	font-size:25px;
+    font-weight: 600;
+	color:#009973;
+	}
+	
+
+.desh_down {
+    height: auto;
+    width: 100%;
+    margin-top: 25px;
+    overflow: hidden;
+}
+
+.dw_left {
+    height: auto;
+    width: 390px;
+    float: left;
+}
+.dw_right {
+    height: auto;
+    width: 390px;
+    float: right;
+}
+
+.dw_head {
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    height: 60px;
+    background-repeat: no-repeat;
+    background-image: url(https://elitecryptoservices.com/images/headr.png);
+}
+.dw_head p{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 18px;
+}
+
+.earn_all {
+    width: 100%;
+    margin-top: 15px;
+}
+
+
+.earn_one{
+    width: 92%;
+    overflow: hidden;
+    overflow: hidden;
+    margin-top: 12px;
+    color: #004687;
+    padding: 12px 13px;
+    font-size: 15px;
+    border: 1px solid#059480;
+    border-left: 3px solid#059480;
+    letter-spacing: 0px;
+}
+
+.earn_one:first-child{
+    margin-top: 0px;
+}
+.earn_one p span{
+    float: right;
+}
+
+.member{
+	height: 58px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.member a{
+	color:#FFFFFF;
+	height: 58px;
+    padding: 5px 0px;
+	display:block;
+	text-align: center;
+	background-color:#0f3a3f;
+	text-align:center;
+	}
+
+.member a img{
+      margin: 15px 12px -3px 0px;
+	}
+
+.member a:hover{
+	background-color:#049078;}
+
+.plan_select {
+    width: 100%;
+    background-image: url(https://elitecryptoservices.com/images/headr.png);
+    height: 64px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.plan_select p{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    padding-left: 30px;
+    line-height: 62px;
+}
+
+.all_dplan {
+    width: 100%;
+    margin-top: 30px;
+    overflow: hidden;
+    }
+
+
+.checintext {
+height: auto;
+    width: auto;
+    /* float: left; */
+    /* margin: 0 auto; */
+    /* padding-top: 23px; */
+    margin: 0 auto;
+    display: table;
+    margin-top: 44px;    border: 2px solid#e3e3e3;
+    border-radius: 5px;
+    padding: 10px 10px;
+    
+}
+
+.check_tittle {
+    width: auto;
+    float: left;
+    margin-left: 15px;
+    color: #000;
+}
+
+.check-in {
+    height:auto;
+    width: auto;
+    float: left;
+    
+}
+
+.check-in input[type='radio']:after {
+    width: 20px;
+    height: 20px;
+    position: relative;
+
+    background-color: #006d51;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border-radius: 4px;
+    top: -2px;
+    left: 0px;
+}
+
+
+.check-in input[type='radio']:checked:after {
+    width: 20px;
+    height: 20px;
+    top: -4px;
+    left: 0px;
+    position: relative;
+    content: '\2713';
+    display: inline-block;
+    visibility: visible;
+    margin-top: 2px;
+    color: #fff;
+    font-size: 17px;
+    text-align: center;
+    font-weight: 600;
+    line-height: 23px;
+    background-color: #000;
+}
+
+.total_balance {
+    width: 100%;
+    margin-top: 30px;
+    height: 62px;
+    overflow: hidden;
+    background-image: url(https://elitecryptoservices.com/images/headr.png);
+    background-repeat: no-repeat;
+}
+.total_balance p span{
+    float: right;
+}
+.total_balance p{
+    color: #fff;
+    line-height: 60px;
+    font-size: 18px;
+    padding: 0px 25px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    }
+.twice {
+    height: auto;
+    width: 100%;
+    margin-top: 30px;
+    overflow: hidden;
+    }
+.twice p{
+    color: #028a6e;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.deposit_amount_ {
+    width: 100%;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.deposit_tittle {
+    float: left;
+    width: 160px;
+    padding: 10px 0px;
+
+}
+
+.deposit_tittle p{
+    color: #4f2556;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.deposit_box_d {
+        width: 647px;
+    float: left;
+    border-radius: 4px;
+    padding: 11px 0px;
+    background-color: #fff;
+    border: 1px solid#007f5f;
+}
+
+
+.deposit_box_type_d{
+    height: auto;
+    width: 280px;
+        margin-left: 20px;
+    float: left;
+}
+
+.deposit_box_type_d input{
+    border: none;
+    padding: 0px;
+}
+.depost_dolar_ {
+    width: auto;
+    float: right;
+    margin-right: 20px;
+}
+
+.depost_dolar_ p{
+    font-size: 16px;
+    color: #228b22;
+}
+
+.pay_select {
+    width: 100%;
+    margin-top: 30px;
+    overflow: hidden;
+}
+
+.pay_left {
+    width: 385px;
+    float: left;
+    overflow: hidden;
+    margin-left: 30px;
+}
+.pay_left:first-child{
+    margin-left: 0px;
+}
+.spend {
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 32.5px;
+    border-bottom: 1px dotted#12a27f;
+    padding: 11px 0px;
+}
+
+.spend:first-child{
+    margin-top: 0px;
+}
+
+.spen_left {
+    float: left;
+    width: auto;
+    margin-left: 19px;
+    color: #000;
+    text-transform: capitalize;
+    font-size: 15px;
+    letter-spacing: 0px;
+}
+
+.check_payment {
+    height: auto;
+    width: auto;
+    float: left;
+}
+
+
+.check_payment input[type='radio']:after {
+      width: 13px;
+    height: 13px;
+    position: relative;
+    /* background-color: #00bfff; */
+    content: '';
+    display: inline-block;
+    visibility: visible;
+        background-color: #f5f5f6;
+       border: 2px solid#54db45;
+    border-radius: 50%;
+       top: -2px;
+    left: 0px;
+}
+
+
+
+.check_payment input[type='radio']:checked:after {
+width: 13px;
+    height: 13px;
+    top: -4px;
+    left: 0px;
+    position: relative;
+    content: '\2022';
+    display: inline-block;
+    visibility: visible;
+    margin-top: 2px;
+    color: #059480;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 600;
+    border: 2px solid#059480;
+    line-height: 13.9px;
+}
+
+.spendd{
+    width: 202px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.spendd input{
+     background-color: #0f3a3f;
+    padding: 15px 0px;
+    letter-spacing: 0.5px;
+    -moz-box-shadow:inset 0px -2px 38px #0b292d;
+-webkit-box-shadow:inset 0px -2px 38px #0b292d;
+box-shadow:inset 0px -2px 38px #0b292d;
+}
+.account_balance{
+    width: 400px;
+    float: left;
+    border-right: 1px solid#005741;
+    overflow: hidden;
+    }
+
+.account_balance:last-child{
+    border-right: 0px
+}
+.account_balance p{
+    color: #ffffff;
+    font-weight: 600;
+        line-height: 65px;
+}
+
+.withdraw_head {
+        height: auto;
+    width: 99.8%;
+    border: 1px solid#05937e;
+    padding-bottom: 6px;
+    overflow: hidden;
+    padding: 10px 0px;
+    color: #05937e;
+}
+
+.process {
+width: 172px;
+    float: left;
+}
+
+.process p{
+    font-weight: 600;
+    font-size: 16px;
+    margin-left: 20px;
+    }
+
+.available {
+    height: auto;
+    width: 128px;
+    float: left;
+
+
+}
+.available p{
+        font-weight: 600;
+        font-size: 16px;
+}
+.pending {
+    height: auto;
+        width: 138px;
+    float: left;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.pending p{
+        font-weight: 600;
+        font-size: 16px;
+}
+
+
+.accountw {
+    height: auto;
+    width: auto;
+    float: left;
+    font-weight: 700;
+    font-size: 16px;
+}
+.accountw p{
+        font-weight: 600;
+        font-size: 16px;
+}
+
+.all_withdraw {
+        height: auto;
+    width: 99.8%;
+    border: 1px solid#05937e;
+    /* margin-top: 20px; */
+    overflow: hidden;
+}
+
+.withdraw-one {
+        height: 53px;
+    width: 100%;
+    margin-top: 18px;
+    /* padding-bottom: 19px; */
+    overflow: hidden;
+    color: #fff;
+    font-size: 16px;
+    color: #ffff;
+    background-image: url(https://elitecryptoservices.com/images/headr.png);
+    background-repeat: no-repeat;
+}
+
+.withdraw-one:first-child{
+    margin-top: 0px;
+}
+
+.process- {
+    height:auto;
+    width:172px;
+    float: left;
+        border-right: 1px solid#000;
+    line-height: 53px;
+}
+.process- p{
+    margin-left: 20px;
+}
+
+.accountw- {
+width: auto;
+    float: left;
+}
+
+
+.accountw- p{
+    margin-left: 25px;
+    margin-top: 8px;
+    line-height: 35px;
+    font-size: 14px;
+    letter-spacing: 0px;
+}
+
+.available- {
+     height: auto;
+    width: 128px;
+    border-right: 1px solid#000;
+    line-height: 53px;
+    float: left;
+}
+
+.available- p{
+    font-size: 16px;
+    margin-left: 20px;
+}
+.pending- {
+    height: auto;
+    width: 138px;
+     float: left;
+    border-right: 1px solid#000;
+     line-height: 53px;
+}
+.pending- p{
+    margin-left: 20px;
+}
+
+    
+.all_withdraww {
+    width: 100%;
+    margin-top: 25px;
+    overflow: hidden;
+}
+
+.withdraw_one {
+    width: 195px;
+    float: left;
+    overflow: hidden;
+    margin-left: 10px;
+}
+.withdraw_one:first-child{
+    margin-left: 0px;
+}
+
+.paycheckbox {
+      height: auto;
+    width: auto;
+    /* margin-top: 25px; */
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 10px;
+        z-index: 9999999;
+}
+
+
+.paycheckbox input[type='radio']:after {
+    width: 18px;
+    height: 18px;
+    position: relative;
+    background-color: #494949;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border-radius: 50%;
+    /* border: 2px solid#000; */
+    top: -1px;
+    left: 0px;
+}
+
+
+
+.paycheckbox input[type='radio']:checked:after {
+ width: 18px;
+    height: 18px;
+    top: -3px;
+    left: 0px;
+    position: relative;
+    content: '\2713';
+    display: inline-block;
+     background-color: #059480;
+    visibility: visible;
+    margin-top: 2px;
+    /* color: #02a5dc; */
+    font-size: 15px;
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    line-height: 19px;
+    /* background-color: #000; */
+}
+
+
+
+.pay_con {
+    width: auto;
+    position: relative;
+}
+
+.balance-box-{
+    height: 90px;
+    width: 100%;
+    margin-top: 23px;
+	}
+.balance-box- textarea{
+    background-color: #ffffff;
+    border: 1px solid#007f5f;
+    width: 97%;
+    border-bottom-left-radius: 5px;
+    height: 75%;
+}
+
+.error{
+    width: 100%;
+    color: #fff;
+    background-color: red;
+    text-align: center;
+    padding: 15px 0px;
+    letter-spacing: 0px;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 4px;
+}
+
+.success{
+    width: 100%;
+    color: #fff;
+    background-color: green;
+    text-align: center;
+    padding: 15px 0px;
+    letter-spacing: 0px;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 4px;
+}
+
+table.tab {font-size:14px;color:#333333;width:100%;border-width: 1px;border-color: #DA0014;border-collapse: collapse;}
+table.tab th {
+    font-size: 15px;
+    background-color: #05937d;
+    border-width: 1px;
+    padding: 12px;
+    border-style: solid;
+    border-color: #05937d;
+    text-align: center;
+    color: #fff;
+    text-transform: capitalize;
+    letter-spacing: 0px;
+}
+table.tab tr {}
+table.tab td {
+    font-size: 14px;
+    border-width: 1px;
+    padding:12px;
+    border-style: solid;
+    border-color: #d0d0d0;
+    background-color: #fff;
+    letter-spacing: 0px;
+}
+
+
+table.blank {font-size:14px;color:#333333;width:100%;border-width: 0px;border-color: #9dcc7a;border-collapse: collapse;}
+table.blank th {font-size:14px;background-color:#abd28e;border-width: 0px;padding: 8px;border-style: solid;border-color: #9dcc7a;text-align:left;}
+table.blank tr {}
+table.blank td {font-size:14px;border-width: 0px;padding: 8px;border-style: solid;border-color: #9dcc7a;}
+
+.deposit-total{
+    max-width: 400px;
+    background-color: #028a6e;
+    letter-spacing: 0px;
+    padding: 12px;
+    color: #fff;
+    border-radius: 3px;
+    margin-left: 15px;
+    margin-top: 20px;
+    float: none;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+
+.deposit-process-wrap{
+width:30%; 
+float:left;
+}
+
+.deposit-cancel-wrap{
+width:30%;
+ float:left; 
+margin-left:15px;
+}
+
+
+.history-list{
+    max-width: 400px;
+    color: #fff;
+    padding: 12px;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 25px;
+    border-radius: 4px;
+    background-color: #028a6e;
+    letter-spacing: 0px;
+}
+
+
+.history-list:first-child {
+margin-left:0px;
+}
+
+.tot-his{
+    background-color: #028a6e;
+    letter-spacing: 0px;
+    padding: 6px 14px;
+    color: #fff;
+    border-radius: 18px;
+}
+
+.banner-head{
+    text-align: center;
+    color: #000;
+}
+
+.left-arrow{
+    float: left;
+    width: auto;
+    overflow: hidden;
+    margin-top: 15%;
+}
+
+.left-arrow img{
+    width: 66px;
+    cursor: pointer;
+}
+
+
+.right-arrow{
+    float: right;
+    width: auto;
+    overflow: hidden;
+    margin-top: 15%;
+}
+
+
+.right-arrow img{
+    width: 66px;
+    cursor: pointer;
+}
+
+.img-r {
+float: left;
+    margin-right: 17px;
+    width: 28px;
+    margin-top: 1px;
+}
+
+.text-r {
+    float: left;
+    margin-top: 1px;
+    text-transform: capitalize;
+    letter-spacing: 0px;
+}
+
+.info-headline-a{
+    text-align: center;
+    font-size: 20px;
+    background-color: #05937d;
+    text-transform: capitalize;
+    letter-spacing: 0px;
+    padding: 10px 0px;
+}
+
+
+.other-info-p{
+text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 0px;
+    font-weight: bold;
+}
+
+
+.information-head2{
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    padding: 5px 0px;
+	}
+
+.information-head2 p{
+    color: #05937d;
+    font-size: 21px;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: .5px;
+	}
+
+.info-rightrr {
+    height: auto;
+    width: 440px;
+    margin: 0 auto;
+}
+
+.info-rightrr label{
+    letter-spacing: 0.5px;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.74);
+}
+
+.info-rightrr input{
+    border: 1px solid rgba(204, 204, 204, 0.46);
+    background: rgba(204, 204, 204, 0.19);
+    border-radius: 3px;
+    margin-top: 11px;
+}
+
+.all_deposits {
+    width: 100%;
+    margin-top: 30px;
+    overflow: hidden;
+    margin-bottom: 37px;
+}
+
+.deposit-one:first-child {
+    margin-top: 0px;
+}
+
+.deposit-one {
+    height: auto;
+    width: 100%;
+    float: left;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.depositrname {
+    height: auto;
+    width: 278px;
+    float: left;
+    background-color: #05937d;
+    color: #FFFFFF;
+    padding: 10px 10px;
+    font-weight: 400;
+    text-align: center;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    transform: skew(-17deg);
+}
+
+.depositrname p{
+    transform: skew(17deg);
+}
+
+.deposit-by {
+    height: 50px;
+    width: 124px;
+    text-align: center;
+    float: left;
+    margin-top: 0px;
+    overflow: hidden;
+}
+
+.deposit-dolar {
+    height: auto;
+    width: 178px;
+    float: right;
+    padding: 10px 0px;
+    font-weight: 400;
+    background-color: #05937d;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 14px;
+    transform: skew(-17deg);
+    margin-right: 8px;
+}
+
+.deposit-dolar p{
+   transform: skew(17deg); 
+}
+
+.rep_text {
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    line-height: 28px;
+    color: rgba(0, 0, 0, 0.67);
+    margin-top: 20px;
+    float: left;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+.cirtyficate{
+        width: auto;
+    overflow: scroll;
+    height: 226px;
+}
+
+.cirtyficate img{
+    width: 100%;
+}
+
+.goog-logo-link {
+   display:none !important;
+} 
+
+.goog-te-gadget{
+   color: transparent !important;
+}
+
+.trandg{
+    padding: 10px;
+    background-color: #0f343a;
+    letter-spacing: 1px;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.87);
+    border-radius: 4px;
+}
+
+.trandg:hover{
+        background-color: #028a6f;
+}
+
+.plan_onenew {
+    width: 23.5%;
+    height: 320px;
+    float: left;
+    overflow: hidden;
+    margin-left: 22px;
+    background: #11998e;
+    background: -webkit-linear-gradient(to right, #38ef7d, #11998e);
+    background: linear-gradient(to right, #27bd60, #11998e);
+    border-radius: 5px;
+}
+
+.plan_onenew:first-child{
+        margin-left: 0px;
+}
+
+.plan_tittlenew{
+      text-align: center;
+    background: #17887a;  
+}
+.plan_tittlenew p {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 60px;
+    letter-spacing: 1px;
+}
+
+.plan_img_n{
+    text-align: center;
+    margin-top: 31px;
+    width: 33%;
+    float: right;
+}
+
+.plan_img_n img{
+    
+}
+
+.new_percent{
+    width: 52%;
+    float: left;
+    text-align: left;
+    margin-top: 20px;
+    padding-left: 37px;
+    background: #0a504a;
+    transform: skew(-17deg);
+    margin-left: -13px;
+        padding-bottom: 10px;
+}
+
+.new_percent h1{
+      letter-spacing: 1px;  
+          transform: skew(17deg);
+}
+
+.new_percent p{
+    letter-spacing: 1px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    transform: skew(17deg);
+    padding-left: 4px;
+}
+
+.other_new_p{
+        float: left;
+    width: 100%;
+    text-align: center;
+    padding: 7px 0px;
+    background: rgba(0, 0, 0, 0.04);
+    margin-top: 9px;
+}
+
+.other_new_p p{
+       font-size: 14px;
+    letter-spacing: 1px;
+    color: #fff; 
+}
